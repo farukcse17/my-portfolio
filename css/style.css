@@ -132,3 +132,72 @@ body{
 .info-box p{
     color: #757575;
 }
+/* What I Do Styles */
+.what-i-do{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.what-i-do> h3{
+    text-align: center;
+}
+.what-i-do-desc{
+    text-align: center;
+    width: 70%;
+    margin: 30px auto;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.skill-title{
+    margin: 20px 0px;
+}
+
+/* Style resume section */
+.my-resume{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.my-resume-title{
+    text-align: center;
+}
+.my-education-experience{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.my-all-education, my-all-experience hr{
+    /* background-color: #D1D1D1;
+    margin-bottom: 30px; */
+}
+.education-heading, .experience-heading{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.my-education, .my-experience{
+    
+}
+.education-degree, .experience-label{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700; 
+}
+.education-institute, .company-name{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+} 
+.education-desc, .my-responsibilites{
+    font-size: 16px;
+    padding: 10px;
+}
