@@ -166,6 +166,10 @@ body{
     margin-top: 50px;
     margin-bottom: 100px;
 }
+.my-resume button{
+    display: block;
+    margin: auto;
+}
 .my-resume-title{
     text-align: center;
     margin-bottom: 100px;
