@@ -168,6 +168,7 @@ body{
 }
 .my-resume-title{
     text-align: center;
+    margin-bottom: 100px;
 }
 .my-education-experience{
     display: flex;
@@ -175,17 +176,18 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.my-all-education, my-all-experience hr{
-    /* background-color: #D1D1D1;
-    margin-bottom: 30px; */
-}
 .education-heading, .experience-heading{
     color: #474747;
     font-size: 30px;
     font-weight: 700;
 }
-.my-education, .my-experience{
-    
+.my-education hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+.my-experience hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
 }
 .education-degree, .experience-label{
     color: #474747;
@@ -199,5 +201,5 @@ body{
 } 
 .education-desc, .my-responsibilites{
     font-size: 16px;
-    padding: 10px;
+    padding: 10px 10px 10px 0px;
 }
